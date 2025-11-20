@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
   const active = "/pulse";
 
   return (
-    <nav className="fixed top-0 left-0 z-50 flex h-16 w-full items-center justify-between border-b border-white/10 bg-[#050505] px-4 text-white md:px-6">
+    <nav className=" left-0 z-50 flex h-16 w-full items-center justify-between border-b border-white/10 bg-[#050505] px-4 text-white md:px-6">
       
       {/* LEFT SECTION */}
       <div className="flex items-center gap-4 lg:gap-6">

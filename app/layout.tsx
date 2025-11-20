@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./components/Navbar";
 import Navbar from "./components/Navbar";
 import BottomBar from "./components/BottomBar";
+import TopToolsBar from "./components/TopToolsBar"
 
 import { Import } from "lucide-react";
 
@@ -33,6 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar/>
+        <TopToolsBar/>
         <BottomBar/>
       </body>
     </html>
