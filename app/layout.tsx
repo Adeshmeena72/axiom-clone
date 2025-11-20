@@ -4,7 +4,8 @@ import "./globals.css";
 import Header from "./components/Navbar";
 import Navbar from "./components/Navbar";
 import BottomBar from "./components/BottomBar";
-import TopToolsBar from "./components/TopToolsBar"
+import TopToolsBar from "./components/TopToolsBar";
+import PulseHeaderBar from "./components/PulseHeaderBar";
 
 import { Import } from "lucide-react";
 
@@ -35,6 +36,7 @@ export default function RootLayout({
       >
         <Navbar/>
         <TopToolsBar/>
+        <PulseHeaderBar />
         <BottomBar/>
       </body>
     </html>

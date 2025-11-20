@@ -4,7 +4,7 @@ import { Settings, Star, LineChart } from "lucide-react";
 
 export default function TopToolsBar() {
   return (
-    <div className="h-6 w-full flex items-center border-b border-[#1d1f27] bg-[#070708] px-4 text-gray-300">
+    <div className="h-6 w-full flex items-center border-b border-[#1a1717] bg-[#000000] px-4 text-gray-300">
       
       {/* LEFT ICON GROUP */}
       <div className="flex items-center gap-2">
