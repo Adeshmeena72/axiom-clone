@@ -6,9 +6,7 @@ import Navbar from "./components/Navbar";
 import BottomBar from "./components/BottomBar";
 import TopToolsBar from "./components/TopToolsBar";
 import PulseHeaderBar from "./components/PulseHeaderBar";
-
 import ThreeColumnsBoard from "./components/ThreeColumnsBoard";
-
 import { Import } from "lucide-react";
 
 const geistSans = Geist({
