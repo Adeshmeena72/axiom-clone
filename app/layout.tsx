@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import BottomBar from "./components/BottomBar";
 import TopToolsBar from "./components/TopToolsBar";
 import PulseHeaderBar from "./components/PulseHeaderBar";
+import NewPairsSection from "./components/NewPairsSection";
+import ThreeColumnsBoard from "./components/ThreeColumnsBoard";
 
 import { Import } from "lucide-react";
 
@@ -37,6 +39,8 @@ export default function RootLayout({
         <Navbar/>
         <TopToolsBar/>
         <PulseHeaderBar />
+        {/* <NewPairsSection /> */}
+        <ThreeColumnsBoard />
         <BottomBar/>
       </body>
     </html>

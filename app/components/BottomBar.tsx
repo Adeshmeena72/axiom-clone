@@ -33,13 +33,12 @@ export default function BottomBar() {
         whitespace-nowrap
       "
     >
-      {/* PRESET BUTTON (always visible) */}
+      
       <button className="flex items-center gap-2 rounded-md border border-[#3a4aff] bg-[#12182b] px-2.5 sm:px-3 py-0.5 font-semibold text-[#97a6ff] shadow-[0_0_12px_-3px_rgba(82,111,255,0.7)]">
         <LayoutList className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
         PRESET 1
       </button>
 
-      {/* CHAIN STAT PILL (md and up) */}
       <div className="hidden md:flex items-center gap-2 rounded-full border border-white/10 bg-[#0c0e14] px-3 py-0.5">
         <span className="font-medium">1</span>
 
@@ -50,22 +49,20 @@ export default function BottomBar() {
         <ChevronDown className="h-3 w-3 text-gray-400" />
       </div>
 
-      {/* SETTINGS ICON (md and up) */}
       <button className="hidden md:flex h-6 w-6 items-center justify-center rounded-md border border-white/15 bg-[#0c0e14] text-gray-400 hover:bg-white/10 hover:text-white">
         <Settings className="h-3.5 w-3.5" />
       </button>
 
-      {/* MENU ITEMS WITH PINK DOTS (always visible) */}
+      
       <div className="flex items-center gap-3 sm:gap-5">
         {MENU_ITEMS.map((item) => (
           <button
             key={item.name}
             className="relative flex items-center gap-1 cursor-pointer text-gray-300 hover:text-white"
           >
-            {/* Pink dot at END of label */}
+      
             <span className="absolute -top-1 right-0 translate-x-1/2 h-1.5 w-1.5 rounded-full bg-pink-400" />
 
-            {/* Icons */}
             {item.icon === "wallet" && (
               <span className="inline-flex h-4 w-4 items-center justify-center rounded-[4px] border border-white/20 bg-[#0c0e14] text-[9px]">
                 🧾
@@ -93,7 +90,6 @@ export default function BottomBar() {
         ))}
       </div>
 
-      {/* PORTFOLIO NUMBERS (desktop only) */}
       <div className="ml-auto hidden lg:flex items-center gap-3 pr-2">
         <span className="flex items-center gap-1 font-semibold text-orange-400">
           🪙 $86.5K
@@ -112,26 +108,26 @@ export default function BottomBar() {
         <span className="text-gray-400">0.0246</span>
       </div>
 
-      {/* RAINBOW PILL (always visible) */}
+   
       <div className="flex items-center gap-1 rounded-full border border-white/10 bg-[#0c0e14] px-2 py-0.5">
         <span className="h-2 w-2 rounded-full bg-green-400" />
         <span className="h-2 w-2 rounded-full bg-yellow-400" />
         <span className="h-2 w-2 rounded-full bg-red-500" />
       </div>
 
-      {/* CONNECTION PILL (sm and up) */}
+     
       <div className="hidden sm:flex items-center gap-2 rounded-full bg-emerald-600/20 px-3 py-0.5 font-medium text-emerald-300">
         <span className="h-2 w-2 rounded-full bg-emerald-400"></span>
         Connection is stable
       </div>
 
-      {/* GLOBAL DROPDOWN (md and up) */}
+  
       <button className="hidden md:flex items-center gap-1 rounded-md border border-white/10 bg-[#0c0e14] px-2 py-0.5 text-gray-200 hover:bg-white/10">
         GLOBAL
         <ChevronDown className="h-4 w-4" />
       </button>
 
-      {/* RIGHT SIDE ICONS (Bell always, others sm+) */}
+      
       <div className="flex items-center gap-1 pl-1">
         <Bell className="h-4 w-4 cursor-pointer text-gray-400 hover:text-white" />
         <Monitor className="hidden sm:inline-flex h-4 w-4 cursor-pointer text-gray-400 hover:text-white" />
