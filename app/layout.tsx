@@ -8,7 +8,7 @@ import TopToolsBar from "./components/TopToolsBar";
 import PulseHeaderBar from "./components/PulseHeaderBar";
 import NewPairsSection from "./components/NewPairsSection";
 import ThreeColumnsBoard from "./components/ThreeColumnsBoard";
-
+import CryptoDashboardLucide from "./components/CryptoDashboardLucide";
 import { Import } from "lucide-react";
 
 const geistSans = Geist({
@@ -41,6 +41,7 @@ export default function RootLayout({
         <PulseHeaderBar />
         {/* <NewPairsSection /> */}
         <ThreeColumnsBoard />
+        {/* <CryptoDashboardLucide/> */}
         <BottomBar/>
       </body>
     </html>
