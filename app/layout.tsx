@@ -37,9 +37,7 @@ export default function RootLayout({
         <Navbar/>
         <TopToolsBar/>
         <PulseHeaderBar />
-        {/* <NewPairsSection /> */}
         <ThreeColumnsBoard />
-        {/* <CryptoDashboardLucide/> */}
         <BottomBar/>
       </body>
     </html>
